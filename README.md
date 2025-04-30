@@ -23,8 +23,7 @@ synthetic-action-eval/
 ├── main.py                    
 ├── requirements.txt           
 ├── Real_Videos.zip            
-├── Synthetic_Videos.zip      
-└── fid-metrics/              
+├── Synthetic_Videos.zip                   
 ```
 ---
 
