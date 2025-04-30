@@ -1,44 +1,41 @@
-# 🎥 Evaluation Framework for Synthetic Human Action Recognition
+# Evaluation Framework for Synthetic Human Action Recognition
 
 This project provides a framework to evaluate the **quality of synthetic human action videos** using two industry-standard metrics: **FID-VID** and **FVD**. It includes an easy-to-use interface for uploading real and synthetic videos, computing scores, and visualizing the results.
 
 ---
 
-## 📦 Features
+## Features
 
-- 📤 Upload real and synthetic videos directly via a UI
-- 📊 Compute **FID-VID** and **FVD** metrics for quantitative evaluation
-- 📈 Generate visualization plots to compare and interpret results
-- 🖥️ Gradio-based user interface for interaction
+- Upload real and synthetic videos directly via a UI
+- Compute **FID-VID** and **FVD** metrics for quantitative evaluation
+- Generate visualization plots to compare and interpret results
+- Gradio-based user interface for interaction
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 synthetic-action-eval/
 │
-├── README.md                  # Project documentation (this file)
-├── Documentation.pdf          # Detailed methodology or report (optional)
-├── main.py                    # Launches the Gradio interface
-├── requirements.txt           # Python dependencies
-├── Real_Videos.zip            # Compressed folder containing real videos
-├── Synthetic_Videos.zip       # Compressed folder containing synthetic videos
-└── fid-metrics/               # (Optional) External repo for computing metrics
-```
-
-> 📌 You can unzip the video files into `data/real/` and `data/synthetic/` if preferred for direct access in code.
+├── README.md                  
+├── Documentation.pdf          
+├── main.py                    
+├── requirements.txt           
+├── Real_Videos.zip            
+├── Synthetic_Videos.zip      
+└── fid-metrics/              
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - Python 3.7 or higher  
 - Internet connection (for downloading models if needed)
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the `fid-metrics` Repository
 
@@ -60,7 +57,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Prepare Videos
 
@@ -80,7 +77,7 @@ python main.py
 
 ---
 
-## 📊 Output
+## Output
 
 - **Metric Results**  
   - Numeric scores for **FID-VID** and **FVD** (lower is better)
@@ -90,29 +87,17 @@ python main.py
 
 ---
 
-## 🎬 Demo
+## Demo
 
 Watch the demo video to see the framework in action:  
 [📺 YouTube Demo](https://youtu.be/z1J4cyMaayU?si=pidEtYN5ifa1QxN8)
 
 ---
 
-## 📌 Notes
+## Notes
 
 - The model may take a few seconds during the first run (model weights downloading or video processing).
 - Metric accuracy depends on resolution, frame count, and preprocessing steps.
 - Ensure the videos are in supported formats (e.g., `.mp4`, `.avi`).
-
----
-
-## 🤝 Contributions
-
-Feel free to fork the repository, suggest improvements, or open issues for bugs or new features!
-
----
-
-## 📬 Contact
-
-For any queries or support, please reach out via GitHub or email the development team.
 
 ---
