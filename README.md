@@ -1,6 +1,6 @@
 # Evaluation Framework for Synthetic Human Action Recognition
 
-This project provides a framework to evaluate the **quality of synthetic human action videos** using two industry-standard metrics: **FID-VID** and **FVD**. It includes an easy-to-use interface for uploading real and synthetic videos, computing scores, and visualizing the results.
+This project provides a framework to evaluate the **quality of synthetic human action videos** using two industry-standard metrics: **FID-VID** and **FVD**. It includes an easy-to-use interface for uploading real and synthetic videos, computing scores and visualizing the results.
 
 ---
 
@@ -25,7 +25,7 @@ synthetic-action-eval/
 ├── Real_Videos.zip            
 ├── Synthetic_Videos.zip      
 └── fid-metrics/              
-
+```
 ---
 
 ## Prerequisites
